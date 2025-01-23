@@ -1,8 +1,12 @@
 site_name: NJUSE Wiki
+repo_name: huoxj/njuse-wiki
+repo_url: https://github.com/huoxj/njuse-wiki/
 theme: 
   name: material
   palette:
     primary: black
+  icon:
+    repo: fontawesome/brands/github
   favicon: images/favicon.png
   logo: images/logo.png
   features:
