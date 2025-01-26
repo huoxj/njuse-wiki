@@ -4,7 +4,18 @@ repo_url: https://github.com/huoxj/njuse-wiki/
 theme: 
   name: material
   palette:
-    primary: black
+    # Light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Dark Mode
+    # Dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-3
+        name: Switch to Light Mode
   icon:
     repo: fontawesome/brands/github
   favicon: images/favicon.png
