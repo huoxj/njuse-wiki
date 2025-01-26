@@ -11,6 +11,7 @@ theme:
   logo: images/logo.png
   features:
     - navigation.tabs
+  custom_dir: docs/overrides
     
 # 添加新文档，需要在这里配置文档的层级
 nav:
@@ -48,4 +49,10 @@ nav:
       - nothing
     - 大四:
       - nothing
-  - 资源: resource.md
+  - 资源: resources/index.md
+  - 经验:
+    - 学习经验: experiences/index.md
+    - 转专业: experiences/index.md
+    - 保研经验: experiences/index.md
+    - 实习就业: experiences/index.md
+

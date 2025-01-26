@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Hi there 👋
 
 ## Welcome to NJU Software Engineering Wiki!
