@@ -22,48 +22,54 @@ theme:
   logo: images/logo.png
   features:
     - navigation.tabs
+    - navigation.expand
   custom_dir: docs/overrides
-    
+
+plugins: 
+  - search
+  - awesome-pages
+
+
 # 添加新文档，需要在这里配置文档的层级
-nav:
-  - 主页:
-    - 简介: index.md
-    - 关于: about.md
-    - 更新日志: changelog.md
-  - 课程: 
-    - 大一上:
-      - C语言程序设计基础: courses/CPL.md
-      - 计算系统基础: courses/ComputerBasis.md
-    - 大一下:
-      - 离散数学: courses/DescreteMath.md
-      - 软件工程与计算I: courses/SECI.md
-    - 大二上:
-      - 数据结构与算法: courses/DSA.md
-      - 计算机组织结构: courses/COA.md
-      - 互联网计算: courses/ComputerNetwork.md
-    - 大二下:
-      - 操作系统: courses/OS.md
-      - 编译原理: courses/Compiler.md
-      - 软件工程与计算II: courses/SECII.md
-      - 数据管理基础: courses/DatabaseBasis.md
-    - 大三上: 
-      - C++: courses/Cpp.md
-      - 人机交互系统: courses/HCI.md
-      - 软件测试: courses/SoftwareTesting.md
-      - 操作系统设计与实现: courses/OSDI.md
-      - 嵌入式系统概论: courses/EmbeddedSystem.md
-      - 服务端开发: courses/ServerDev.md
-      - 大数据分析: courses/BigData.md
-      - 机器学习: courses/ML.md
-      - 形式语言与自动机: courses/FLA.md
-    - 大三下:
-      - nothing
-    - 大四:
-      - nothing
-  - 资源: resources/index.md
-  - 经验:
-    - 学习经验: experiences/index.md
-    - 转专业: experiences/index.md
-    - 保研经验: experiences/index.md
-    - 实习就业: experiences/index.md
+# nav:
+#   - 主页:
+#     - 简介: index.md
+#     - 关于: about.md
+#     - 更新日志: changelog.md
+#   - 课程: 
+#     - 大一上:
+#       - C语言程序设计基础: courses/CPL.md
+#       - 计算系统基础: courses/ComputerBasis.md
+#     - 大一下:
+#       - 离散数学: courses/DescreteMath.md
+#       - 软件工程与计算I: courses/SECI.md
+#     - 大二上:
+#       - 数据结构与算法: courses/DSA.md
+#       - 计算机组织结构: courses/COA.md
+#       - 互联网计算: courses/ComputerNetwork.md
+#     - 大二下:
+#       - 操作系统: courses/OS.md
+#       - 编译原理: courses/Compiler.md
+#       - 软件工程与计算II: courses/SECII.md
+#       - 数据管理基础: courses/DatabaseBasis.md
+#     - 大三上: 
+#       - C++: courses/Cpp.md
+#       - 人机交互系统: courses/HCI.md
+#       - 软件测试: courses/SoftwareTesting.md
+#       - 操作系统设计与实现: courses/OSDI.md
+#       - 嵌入式系统概论: courses/EmbeddedSystem.md
+#       - 服务端开发: courses/ServerDev.md
+#       - 大数据分析: courses/BigData.md
+#       - 机器学习: courses/ML.md
+#       - 形式语言与自动机: courses/FLA.md
+#     - 大三下:
+#       - nothing
+#     - 大四:
+#       - nothing
+#   - 资源: resources/index.md
+#   - 经验:
+#     - 学习经验: experiences/index.md
+#     - 转专业: experiences/index.md
+#     - 保研经验: experiences/index.md
+#     - 实习就业: experiences/index.md
 

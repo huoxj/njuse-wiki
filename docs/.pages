@@ -1,0 +1,8 @@
+nav:
+  - 主页:
+    - 简介: index.md
+    - 关于: about.md
+    - 更新日志: changelog.md
+  - courses
+  - resources
+  - experiences
