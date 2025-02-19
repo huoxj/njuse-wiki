@@ -29,6 +29,8 @@ plugins:
   - search
   - awesome-pages
 
+markdown_extensions:
+  - pymdownx.tilde
 
 # 添加新文档，需要在这里配置文档的层级
 # nav:
